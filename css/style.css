@@ -1,0 +1,66 @@
+/* All */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Body */
+
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+/* Body and Header and Section */
+
+body, header, section {
+	width: 100%;
+}
+
+/* Header */
+
+header {
+	height: 80px;
+	background-color: #A053;
+	text-align: center;
+}
+
+header h1 {
+	padding: 20px;
+}
+
+/* Content */
+
+#contents #menu, #contents #page {
+	float: left;
+}
+
+#contents #menu {
+	width: 10%;
+	padding-top: 20px;
+}
+
+#contents #menu ul {
+	list-style: none;
+	color: #000;
+	font-weight: 900;
+}
+
+#contents #menu ul li {
+	margin: 20px;
+	cursor: pointer;
+}
+
+#contents #page {
+	width: 90%;
+}
+
+#contents #page p, #contents #page h3 {
+	margin: 20px;
+}
+
+@media (max-width: 620px) {
+	#contents #menu, #contents #page {
+		clear: both;
+	}
+}
